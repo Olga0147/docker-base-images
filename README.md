@@ -19,6 +19,10 @@ docker run -it -p 8080:8080 --name t11m1 tomcat11-manager
 Пример запуска докер-образа с Docker hub:
 ```
 docker run -it -p 8080:8080 --name t11m1 onfocus0147/tomcat11-manager
-
 ```
-
+## tomcat11sample
+На образе tomcat11-manager. Содержит в себе sample.war из гайда к tomcat.
+Пример запуска докер-образа с Docker hub:
+```
+docker run -it -p 8080:8080 --name t11m1 onfocus0147/tomcat11-sample
+```
